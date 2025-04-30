@@ -21,8 +21,8 @@ import celectLogo from '../assets/company/celectcep.png'
 import iitLogo from '../assets/company/iit.png'
 import javaLogo from '../assets/tech/javalogo.png'
 import expressLogo from '../assets/tech/expresslogo.png'
-import affiliatePicture from '../assets/affiliate.png'
-import blitzPicture from '../assets/blitzTV.png'
+import DECK from '../assets/deck.jpg'
+import BiblioSys from '../assets/bibliosys.jpg'
 import finePayPicture from '../assets/finePay.webp'
 
 export const navLinks = [
@@ -147,59 +147,51 @@ const experiences = [
 
 const projects = [
   {
-    name: "Affiliate",
+    name: "DECK",
     description:
-      "A web platform where users can explore and buy their favorite and trending clothes with a simple click on any product. You can automatically forwarded to official page.",
+      "DECK Digital Signage works over an Internet connection or an offline mode, delivering rich media content to your digital screens. Use DECK Digital Signage to grow your audience, reduce your cost and reinforce your brand. The idea behind the system is to provide dynamic content which can be controlled from a centralized location.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MYSQL",
         color: "green-text-gradient",
       },
       {
-        name: "node-js",
+        name: "Asp.net core",
         color: "pink-text-gradient",
-      },
-      {
-        name: "express-js",
-        color: "blue-text-gradient",
-      },
+      }
     ],
-    image: affiliatePicture,
-    source_code_link: "https://github.com/Dev2927?tab=repositories",
+    image: DECK,
+    // source_code_link: "https://github.com/Dev2927?tab=repositories",
   },
   {
-    name: "BlitzTv",
+    name: "BiblioSys",
     description:
-      "A YouTube-inspired platform, allowing users to upload, like, and comment on videos. Implemented robust user authentication functionalities and seamless user experience.",
+      "It is a marketplace interface which is helping libraries to bridge the gap between its book offerings and patrons. It also helps a supplier to showcase its catalogues to a wider audience and thus achieve more sales. Library patrons get the flexibility to choose from a bigger Catalog and make requisitions through their libraries.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MYSQL",
         color: "green-text-gradient",
       },
       {
-        name: "node-js",
+        name: "Asp.net core",
         color: "pink-text-gradient",
-      },
-      {
-        name: "express-js",
-        color: "blue-text-gradient",
-      },
+      }
     ],
-    image: blitzPicture,
-    source_code_link: "https://github.com/Dev2927/youtubeClone",
+    image: BiblioSys,
+    // source_code_link: "https://github.com/Dev2927/youtubeClone",
   },
   {
     name: "Fine Pay",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The idea is to provide a simple to use intuitive interface through which a library patron can make the payments to its library with involving hard cash. This first of its kind system is intended to help libraries collect fines easily without worrying about the underlying complexities.",
     tags: [
       {
         name: "react-native",
@@ -210,12 +202,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Asp.net Web Api",
         color: "pink-text-gradient",
       },
     ],
     image: finePayPicture,
-    source_code_link: "https://github.com/Dev2927?tab=repositories",
+    // source_code_link: "https://github.com/Dev2927?tab=repositories",
   },
 ];
 
