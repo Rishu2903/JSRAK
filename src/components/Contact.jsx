@@ -44,16 +44,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_uuurqcp',
-        'template_8v10td6',
+        'service_9zg52sk',
+        'template_aqa5ch9',
         {
           from_name: form.name,
-          to_name: "Dev Anand",
+          to_name: "Rishabh Kataria",
           from_email: form.email,
-          to_email: "devanand290702@gmail.com",
+          to_email: "rishabhkataria.work@gmail.com",
           message: form.message,
         },
-        'pO_yHYUPBk6IrCNQd'
+        'UKdhxFuQtTJzAo4n1'
       )
       .then(
         () => {
