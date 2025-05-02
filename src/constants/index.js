@@ -21,13 +21,15 @@ import celectLogo from '../assets/company/celectcep.png'
 import iitLogo from '../assets/company/iit.png'
 import javaLogo from '../assets/tech/javalogo.png'
 import expressLogo from '../assets/tech/expresslogo.png'
-import DECK from '../assets/deck.jpg'
-import BiblioSys from '../assets/bibliosys.jpg'
-import finePayPicture from '../assets/finePay.webp'
+import DECK from '../assets/Project/deck.jpg'
+import BiblioSys from '../assets/Project/bibliosys.jpg'
+import finePayPicture from '../assets/Project/finePay.webp'
+import Pulse from '../assets/Project/pulse.png'
+import Suit from'../assets/Project/suit.png'
 
 export const navLinks = [
   { id: "about", title: "About", path: "/about" },
-  { id: "work", title: "Our Work", path: "/work" },
+  { id: "work", title: "Our Projects", path: "/work" },
   { id: "contact", title: "Get in Touch", path: "/contact" },
  
 ];
@@ -209,6 +211,51 @@ const projects = [
     image: finePayPicture,
     // source_code_link: "https://github.com/Dev2927?tab=repositories",
   },
+
+  {
+    name: "Pulse Feedback",
+    description:
+      "Pulse Feedback is a real-time feedback solution designed to enhance organizational communication and performance. The platform enables employees, customers, or users to provide ongoing, timely input through short surveys or instant feedback tools. It supports data-driven decision-making by offering analytics dashboards, sentiment tracking, and customized reporting features. ",
+    tags: [
+      {
+        name: "react-Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Asp.net Web Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Pulse,
+    // source_code_link: "https://github.com/Dev2927?tab=repositories",
+  },
+  {
+    name: "SUITS",
+    description:
+      "SUITS is a comprehensive platform designed to streamline the reservation, allocation, and usage tracking of meeting spaces in corporate and co-working environments. With features like real-time availability, smart scheduling conflict resolution, and digital room displays, SUITS enhances workplace efficiency and reduces administrative overhead.",
+    tags: [
+      {
+        name: "react-Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Asp.net Web Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Suit,
+    // source_code_link: "https://github.com/Dev2927?tab=repositories",
+  },
+
+
 ];
 
 export { services, technologies, experiences, projects };
