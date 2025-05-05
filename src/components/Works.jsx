@@ -25,6 +25,7 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        style={{opacity:1}}
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -70,13 +71,13 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div  variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Our Work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Our Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`} style={{opacity:1 }}>Our Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+      <div className='w-full flex '>
+        <motion.p style={{opacity:1}} variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         The following projects demonstrate our expertise and experience through practical examples of our work. Each project is accompanied by a brief description, showcasing our ability to solve complex challenges, adapt to diverse technologies, and deliver efficient solutions. Links to code repositories and live demos are included, highlighting our dedication to creating impactful and functional outcomes.
         </motion.p>
       </div>
